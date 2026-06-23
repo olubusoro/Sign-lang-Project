@@ -575,6 +575,9 @@ video {
 .pointer-events-none {
   pointer-events: none;
 }
+.visible {
+  visibility: visible;
+}
 .absolute {
   position: absolute;
 }
@@ -608,6 +611,9 @@ video {
 }
 .mt-auto {
   margin-top: auto;
+}
+.block {
+  display: block;
 }
 .inline-block {
   display: inline-block;
