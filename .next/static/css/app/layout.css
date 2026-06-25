@@ -575,6 +575,9 @@ video {
 .pointer-events-none {
   pointer-events: none;
 }
+.visible {
+  visibility: visible;
+}
 .absolute {
   position: absolute;
 }
@@ -617,6 +620,9 @@ video {
 }
 .inline-flex {
   display: inline-flex;
+}
+.contents {
+  display: contents;
 }
 .h-10 {
   height: 2.5rem;

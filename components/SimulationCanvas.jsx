@@ -170,9 +170,9 @@ function HandRig({ tokens, dictionary, onTokenAdvance, isPlaying, signSpeed }) {
     bonePrefixRef.current = prefix;
 
     // ── DEBUG: log scene contents to browser console ──
-    const meshes: string[] = [];
-    const bones: string[]  = [];
-    scene.traverse((obj: any) => {
+    const meshes = [];
+    const bones  = [];
+    scene.traverse((obj) => {
       if (obj.isMesh)       meshes.push(`MESH: ${obj.name} (verts: ${obj.geometry?.attributes?.position?.count ?? '?'})`);
       if (obj.isBone)       bones.push(`BONE: ${obj.name}`);
     });
